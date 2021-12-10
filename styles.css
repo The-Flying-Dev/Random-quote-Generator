@@ -1,0 +1,42 @@
+body {
+
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.container {
+    background-color: rgb(111, 121, 117);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    opacity: 0.8;
+    float: center;
+}
+
+p {
+    background-color: #f5f5dc;
+    color: blueviolet;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+button {
+    height: 70px;
+    width: 150px;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(51, 158, 131);
+    
+}
